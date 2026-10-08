@@ -1,6 +1,6 @@
 # Python Data Analyzer
 
-A beginner Python project that collects numbers, handles invalid input, and reports useful statistics. It grows from the Chapter 5 number analyzer exercise using variables, conditionals, `try`/`except`, loops, counters, accumulators, and functions.
+A beginner Python project that collects numbers, handles invalid input, and reports useful statistics. This learning project was inspired by the number-processing exercises in Chapter 5, “Iteration,” of Python for Everybody: Exploring Data Using Python 3 by Dr. Charles R. Severance. I extended those exercises into an interactive number analyzer that handles invalid input and reports the count, total, average, smallest, and largest values.
 
 ## What it will do
 
