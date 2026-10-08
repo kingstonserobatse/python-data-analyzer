@@ -1,0 +1,17 @@
+Try these entries when running the program:
+
+10
+5
+hello
+-2
+done
+
+Expected accepted values: 10, 5, and -2
+Expected count: 3
+Expected total: 13
+Expected average: about 4.33
+Expected smallest: -2
+Expected largest: 10
+
+Also try typing done immediately. The program should explain that there are
+no valid numbers to summarize and should not attempt to divide by zero.
