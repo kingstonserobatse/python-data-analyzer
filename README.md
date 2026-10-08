@@ -52,7 +52,7 @@ Enter numbers one at a time; type 'done' to finish.
 Number: 10
 Number: 5
 Number: hello
-That wasn't a valid number. Please try again.
+Error: Invalid input. Please enter numeric values only.
 Number: 15
 Number: done
 
