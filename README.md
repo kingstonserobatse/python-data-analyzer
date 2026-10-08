@@ -2,7 +2,7 @@
 
 A beginner Python project that collects numbers, handles invalid input, and reports useful statistics. This learning project was inspired by the number-processing exercises in Chapter 5, “Iteration,” of Python for Everybody: Exploring Data Using Python 3 by Dr. Charles R. Severance. I extended those exercises into an interactive number analyzer that handles invalid input and reports the count, total, average, smallest, and largest values.
 
-## What it will do
+## What it does
 
 - Ask for numbers until you type `done`.
 - Ignore invalid entries with a helpful message.
@@ -30,16 +30,19 @@ python number_analyzer.py
 
 On some Windows setups, use `py number_analyzer.py` instead.
 
-## Build it in small steps
+## How it works
 
-Open `number_analyzer.py` and complete one TODO at a time. Run it after each step and try the examples in `examples/sample-session.txt`.
+1. Keeps asking for numbers until you type done.
 
-1. Initialize the count, total, smallest, and largest values before the input loop.
-2. Ask for input repeatedly and stop when the user types `done`.
-3. Convert each other entry to a number inside `try`/`except`. On invalid input, show a message and continue the loop.
-4. For a valid number, update the count and total. Update smallest and largest without resetting them each time through the loop.
-5. After the loop, print the summary. Only calculate an average when at least one valid number was entered.
-6. Optional improvement: move the input-and-summary work into functions once the first version makes sense to you.
+2. Converts each entry to a decimal number. Invalid entries show a message and are skipped.
+
+3. Counts valid numbers, adds them to a running total, and tracks the smallest and largest values.
+
+4. Prints a summary after you type done. If you entered no valid numbers, it explains that there are no statistics to show.
+
+## What I learned
+
+This project gave me practice combining input, loops, conditionals, exception handling, counters, and running totals in one program. I built it step by step and used GitHub commits to record its progress.
 
 ## Concepts practiced
 
